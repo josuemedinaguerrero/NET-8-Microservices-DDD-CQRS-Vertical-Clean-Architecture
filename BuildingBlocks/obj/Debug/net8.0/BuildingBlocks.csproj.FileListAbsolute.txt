@@ -1,0 +1,12 @@
+/home/josue/Desktop/NET/NET 8 Microservices DDD CQRS Vertical Clean Architecture/BuildingBlocks/bin/Debug/net8.0/BuildingBlocks.deps.json
+/home/josue/Desktop/NET/NET 8 Microservices DDD CQRS Vertical Clean Architecture/BuildingBlocks/bin/Debug/net8.0/BuildingBlocks.dll
+/home/josue/Desktop/NET/NET 8 Microservices DDD CQRS Vertical Clean Architecture/BuildingBlocks/bin/Debug/net8.0/BuildingBlocks.pdb
+/home/josue/Desktop/NET/NET 8 Microservices DDD CQRS Vertical Clean Architecture/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.csproj.AssemblyReference.cache
+/home/josue/Desktop/NET/NET 8 Microservices DDD CQRS Vertical Clean Architecture/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.GeneratedMSBuildEditorConfig.editorconfig
+/home/josue/Desktop/NET/NET 8 Microservices DDD CQRS Vertical Clean Architecture/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.AssemblyInfoInputs.cache
+/home/josue/Desktop/NET/NET 8 Microservices DDD CQRS Vertical Clean Architecture/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.AssemblyInfo.cs
+/home/josue/Desktop/NET/NET 8 Microservices DDD CQRS Vertical Clean Architecture/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.csproj.CoreCompileInputs.cache
+/home/josue/Desktop/NET/NET 8 Microservices DDD CQRS Vertical Clean Architecture/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.dll
+/home/josue/Desktop/NET/NET 8 Microservices DDD CQRS Vertical Clean Architecture/BuildingBlocks/obj/Debug/net8.0/refint/BuildingBlocks.dll
+/home/josue/Desktop/NET/NET 8 Microservices DDD CQRS Vertical Clean Architecture/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.pdb
+/home/josue/Desktop/NET/NET 8 Microservices DDD CQRS Vertical Clean Architecture/BuildingBlocks/obj/Debug/net8.0/ref/BuildingBlocks.dll
