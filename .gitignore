@@ -1,0 +1,36 @@
+# Carpetas de compilación y publicación
+bin/
+obj/
+out/
+
+# Archivos de usuario de Visual Studio y Rider
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Dependencias y paquetes
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+node_modules/
+packages/
+.nuget/
+
+# Configuración de Docker y archivos generados
+docker-compose.override.yml
+.env
+
+# Archivos de lock y configuración de IDEs
+project.lock.json
+**/appsettings*.json
+
+# Archivos de depuración
+*.dotCover
+*.ncrunch*
+*.coverage
+*.testsettings

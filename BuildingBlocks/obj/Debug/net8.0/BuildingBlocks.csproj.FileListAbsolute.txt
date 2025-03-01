@@ -10,3 +10,4 @@
 /home/josue/Desktop/NET/NET 8 Microservices DDD CQRS Vertical Clean Architecture/BuildingBlocks/obj/Debug/net8.0/refint/BuildingBlocks.dll
 /home/josue/Desktop/NET/NET 8 Microservices DDD CQRS Vertical Clean Architecture/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.pdb
 /home/josue/Desktop/NET/NET 8 Microservices DDD CQRS Vertical Clean Architecture/BuildingBlocks/obj/Debug/net8.0/ref/BuildingBlocks.dll
+/home/josue/Desktop/NET/NET 8 Microservices DDD CQRS Vertical Clean Architecture/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.sourcelink.json
