@@ -6,7 +6,6 @@ namespace BuildingBlocks.CQRS
         : IRequestHandler<TCommand, Unit>
         where TCommand : ICommand<Unit>
     {
-
     }
 
     public interface ICommandHandler<in TCommand, TResponse>
@@ -14,6 +13,5 @@ namespace BuildingBlocks.CQRS
         where TCommand : ICommand<TResponse>
         where TResponse : notnull
     {
-
     }
 }

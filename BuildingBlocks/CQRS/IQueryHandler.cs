@@ -7,6 +7,5 @@ namespace BuildingBlocks.CQRS
         where TQuery : IQuery<TResponse>
         where TResponse : notnull
     {
-
     }
 }
