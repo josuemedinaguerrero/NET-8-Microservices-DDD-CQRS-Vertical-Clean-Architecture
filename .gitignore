@@ -27,7 +27,7 @@ docker-compose.override.yml
 
 # Archivos de lock y configuración de IDEs
 project.lock.json
-**/appsettings*.json
+# **/appsettings*.json
 
 # Archivos de depuración
 *.dotCover
