@@ -4,8 +4,8 @@ ARG BUILD_CONFIGURATION=Release
 # Usa la imagen base oficial de .NET para ejecutar la aplicación
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 WORKDIR /app
-EXPOSE 8000
-EXPOSE 8001
+EXPOSE 8080
+EXPOSE 8081
 
 # Usa la imagen de .NET SDK para compilar el proyecto
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
