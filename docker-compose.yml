@@ -44,6 +44,12 @@ services:
     volumes:
       - postgres_basket:/var/lib/postgresql/data/
 
+  distributedcache:
+    image: redis
+    container_name: distributedcache
+    ports:
+      - '6379:6379'
+
 volumes:
   postgres_catalog:
   postgres_basket:
