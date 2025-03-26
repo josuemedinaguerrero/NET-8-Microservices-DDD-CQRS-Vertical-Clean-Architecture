@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 var builder = WebApplication.CreateBuilder(args);
 
 
+
 // Add services to the container
 // Application services
 var assembly = typeof(Program).Assembly;
@@ -15,6 +16,7 @@ builder.Services.AddMediatR(config =>
    config.AddOpenBehavior(typeof(ValidationBehavior<,>)); // Pipeline MediaR
    config.AddOpenBehavior(typeof(LoggingBehavior<,>)); // Pipeline MediaR Logging
 });
+
 
 
 // Data services
@@ -35,6 +37,7 @@ builder.Services.AddScoped<IBasketRepository, BasketRepository>();
 builder.Services.Decorate<IBasketRepository, CachedBasketRepository>();
 
 
+
 // GRPC services
 
 builder.Services.AddGrpcClient<DiscountProtoService.DiscountProtoServiceClient>(options =>
@@ -44,7 +47,12 @@ builder.Services.AddGrpcClient<DiscountProtoService.DiscountProtoServiceClient>(
 });
 
 
+
+// Cross-Cutting Service
+
 builder.Services.AddExceptionHandler<CustomExceptionHandler>();
+
+
 
 builder.Services.AddStackExchangeRedisCache(options =>
 {
