@@ -1,8 +1,8 @@
 using System.Reflection;
-using Domain.Models;
+using Ordering.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace Infrastructure.Data
+namespace Ordering.Infrastructure.Data
 {
    public class ApplicationDbContext : DbContext
    {

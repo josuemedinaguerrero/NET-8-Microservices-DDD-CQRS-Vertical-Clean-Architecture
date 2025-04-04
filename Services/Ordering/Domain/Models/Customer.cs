@@ -1,7 +1,7 @@
-using Domain.Abstractions;
-using Domain.ValueObjects;
+using Ordering.Domain.Abstractions;
+using Ordering.Domain.ValueObjects;
 
-namespace Domain.Models
+namespace Ordering.Domain.Models
 {
    public class Customer : Entity<CustomerId>
    {

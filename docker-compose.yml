@@ -85,6 +85,15 @@ services:
     volumes:
       - postgres_basket:/var/lib/postgresql/data/
 
+  orderdb:
+    container_name: orderdb
+    image: mcr.microsoft.com/mssql/server
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=SwN12345678
+    ports:
+      - '1432:1433'
+
   distributedcache:
     image: redis
     container_name: distributedcache

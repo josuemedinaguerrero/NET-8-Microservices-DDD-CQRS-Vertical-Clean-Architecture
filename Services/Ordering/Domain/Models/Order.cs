@@ -1,9 +1,9 @@
-using Domain.Abstractions;
-using Domain.Enums;
-using Domain.Events;
-using Domain.ValueObjects;
+using Ordering.Domain.Abstractions;
+using Ordering.Domain.Enums;
+using Ordering.Domain.ValueObjects;
+using Ordering.Domain.Events;
 
-namespace Domain.Models
+namespace Ordering.Domain.Models
 {
    public class Order : Aggregate<OrderId>
    {
@@ -58,8 +58,6 @@ namespace Domain.Models
          var orderItem = new OrderItem(Id, productId, quantity, price);
          _orderItems.Add(orderItem);
       }
-
-
 
       public void Remove(ProductId productId)
       {
