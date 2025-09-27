@@ -1,36 +1,50 @@
-# Carpetas de compilación y publicación
-bin/
-obj/
-out/
-
-# Archivos de usuario de Visual Studio y Rider
+# Visual Studio
 .vs/
-.idea/
-*.user
+*.vsidx
 *.suo
+*.user
 *.userosscache
 *.sln.docstates
 
-# Dependencias y paquetes
-*.dll
-*.exe
-*.pdb
-*.cache
-*.log
-node_modules/
-packages/
-.nuget/
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
 
-# Configuración de Docker y archivos generados
-docker-compose.override.yml
-.env
-
-# Archivos de lock y configuración de IDEs
+# .NET Core
 project.lock.json
-# **/appsettings*.json
+project.fragment.lock.json
+artifacts/
 
-# Archivos de depuración
-*.dotCover
-*.ncrunch*
-*.coverage
-*.testsettings
+# User-specific files
+*.rsuser
+*.user
+*.userosscache
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+*.nuget.props
+*.nuget.targets
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains Rider
+.idea/
+
+# Logs
+*.log
+
+# Database files
+*.mdf
+*.ldf
+
+# Environment files
+.env
+.env.local
+.env.development.local
