@@ -32,20 +32,15 @@
             return order;
         }
 
-        public void Update(OrderId id, CustomerId customerId, OrderName orderName, Address shippingAddress, Address billingAddress, Payment payment)
+        public void Update(OrderName orderName, Address shippingAddress, Address billingAddress, Payment payment, OrderStatus status)
         {
-            var order = new Order()
-            {
-                Id = id,
-                CustomerId = customerId,
-                OrderName = orderName,
-                ShippingAddress = shippingAddress,
-                BillingAddress = billingAddress,
-                Payment = payment,
-                Status = OrderStatus.Pending
-            };
+            OrderName = orderName;
+            ShippingAddress = shippingAddress;
+            BillingAddress = billingAddress;
+            Payment = payment;
+            Status = status;
 
-            AddDomainEvent(new OrderUpdatedEvent(order));
+            AddDomainEvent(new OrderUpdatedEvent(this));
         }
 
         public void Add(ProductId productId, int quantity, decimal price)
