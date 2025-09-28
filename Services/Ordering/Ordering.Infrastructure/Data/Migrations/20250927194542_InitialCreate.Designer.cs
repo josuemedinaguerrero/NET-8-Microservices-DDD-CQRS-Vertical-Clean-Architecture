@@ -42,7 +42,7 @@ namespace Ordering.Infrastructure.Data.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
-                    b.Property<string>("LasModifiedBy")
+                    b.Property<string>("LastModifiedBy")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("LastModified")
@@ -75,7 +75,7 @@ namespace Ordering.Infrastructure.Data.Migrations
                     b.Property<Guid>("CustomerId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("LasModifiedBy")
+                    b.Property<string>("LastModifiedBy")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("LastModified")
@@ -226,7 +226,7 @@ namespace Ordering.Infrastructure.Data.Migrations
                     b.Property<string>("CreatedBy")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("LasModifiedBy")
+                    b.Property<string>("LastModifiedBy")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("LastModified")
@@ -264,7 +264,7 @@ namespace Ordering.Infrastructure.Data.Migrations
                     b.Property<string>("CreatedBy")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("LasModifiedBy")
+                    b.Property<string>("LastModifiedBy")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("LastModified")

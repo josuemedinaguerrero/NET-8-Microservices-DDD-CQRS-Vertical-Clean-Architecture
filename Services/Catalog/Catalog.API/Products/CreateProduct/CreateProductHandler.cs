@@ -33,7 +33,7 @@ internal class CreateProductCommandHandler
             ImageFile = command.ImageFile,
             Price = command.Price
         };
-        
+
         //save to database
         session.Store(product);
         await session.SaveChangesAsync(cancellationToken);
